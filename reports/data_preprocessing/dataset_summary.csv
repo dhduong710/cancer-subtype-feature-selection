@@ -1,0 +1,4 @@
+Dataset,Cancer type,Role,Samples,Features,Feature type,Classes,Missing values,Removed constant features
+MoGCN BRCA,BRCA,Main dataset,511,19454,genes,4,0,126
+CancerSD STAD,STAD,Main dataset,362,4089,genes,4,0,0
+MOGONET BRCA,BRCA,Optional benchmark,875,1000,preprocessed features,5,0,0

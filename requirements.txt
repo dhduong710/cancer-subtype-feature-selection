@@ -8,3 +8,4 @@ pyyaml
 jupyter
 ipykernel
 openpyxl
+tabulate

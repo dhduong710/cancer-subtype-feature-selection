@@ -1,0 +1,21 @@
+split,total_samples,label_id,label,n_samples
+train,489,0,Normal-like,64
+train,489,1,Basal-like,73
+train,489,2,HER2-enriched,26
+train,489,3,Luminal A,244
+train,489,4,Luminal B,82
+val,123,0,Normal-like,16
+val,123,1,Basal-like,19
+val,123,2,HER2-enriched,6
+val,123,3,Luminal A,61
+val,123,4,Luminal B,21
+test,263,0,Normal-like,35
+test,263,1,Basal-like,39
+test,263,2,HER2-enriched,14
+test,263,3,Luminal A,131
+test,263,4,Luminal B,44
+train_val,612,0,Normal-like,80
+train_val,612,1,Basal-like,92
+train_val,612,2,HER2-enriched,32
+train_val,612,3,Luminal A,305
+train_val,612,4,Luminal B,103

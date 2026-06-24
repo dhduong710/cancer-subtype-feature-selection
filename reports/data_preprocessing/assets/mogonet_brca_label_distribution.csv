@@ -1,0 +1,6 @@
+label_id,label,sample_count,percentage
+0,Normal-like,115,13.14
+1,Basal-like,131,14.97
+2,HER2-enriched,46,5.26
+3,Luminal A,436,49.83
+4,Luminal B,147,16.8

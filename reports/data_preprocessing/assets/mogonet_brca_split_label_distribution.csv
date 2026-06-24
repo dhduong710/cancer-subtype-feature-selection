@@ -1,0 +1,11 @@
+label_id,label,source_split,sample_count
+0,Normal-like,test,35
+0,Normal-like,train,80
+1,Basal-like,test,39
+1,Basal-like,train,92
+2,HER2-enriched,test,14
+2,HER2-enriched,train,32
+3,Luminal A,test,131
+3,Luminal A,train,305
+4,Luminal B,test,44
+4,Luminal B,train,103

@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Large data files
+data/raw/**
+data/interim/**
+data/processed/**
+
+# Keep data folder documentation
+!data/README.md
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# Results: ignore heavy outputs
+results/**
+!results/.gitkeep
+!results/data_summaries/
+!results/data_summaries/.gitkeep
+
+# Model/checkpoint files
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.h5
+*.ckpt
+models/
+checkpoints/
+
+# Compressed files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Paper source repos accidentally extracted inside this repo
+**/.git/
+external/
+references/source_repos/

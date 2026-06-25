@@ -1,0 +1,17 @@
+{
+  "dataset": "mogcn_brca",
+  "created_at": "2026-06-25T00:11:44",
+  "random_state": 42,
+  "official_split": false,
+  "split_strategy": "stratified_70_15_15_holdout",
+  "n_train": 357,
+  "n_val": 77,
+  "n_test": 77,
+  "n_train_val": 434,
+  "cv_folds": 5,
+  "notes": [
+    "Test split must stay untouched until final evaluation.",
+    "Feature selection, scaling, and model fitting must be fitted inside each training split only to avoid data leakage.",
+    "CV folds are created only on train_val, never on test."
+  ]
+}

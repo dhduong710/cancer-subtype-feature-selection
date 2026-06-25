@@ -1,0 +1,27 @@
+mogcn_brca:
+  raw_dir: data/raw/mogcn_brca
+  processed_dir: data/processed/mogcn_brca
+  expression_file: fpkm_data.csv
+  label_file: sample_classes.csv
+  task: brca_subtype_classification
+  data_type: gene_expression
+
+cancersd_stad:
+  raw_dir: data/raw/cancersd_stad
+  processed_dir: data/processed/cancersd_stad
+  expression_file: mRNA.zip
+  label_file: patient_diagnose.csv
+  task: stad_subtype_classification
+  data_type: gene_expression
+
+mogonet_brca_optional:
+  raw_dir: data/raw/mogonet_brca_optional
+  processed_dir: data/processed/mogonet_brca_optional
+  train_expression_file: 1_tr.csv
+  test_expression_file: 1_te.csv
+  train_label_file: labels_tr.csv
+  test_label_file: labels_te.csv
+  feature_name_file: 1_featname.csv
+  task: brca_subtype_classification
+  data_type: preprocessed_gene_expression
+  optional: true

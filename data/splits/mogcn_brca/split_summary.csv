@@ -1,0 +1,17 @@
+split,total_samples,label_id,label,n_samples
+train,357,0,LumA,174
+train,357,1,LumB,68
+train,357,2,Basal,78
+train,357,3,Her2,37
+val,77,0,LumA,37
+val,77,1,LumB,15
+val,77,2,Basal,17
+val,77,3,Her2,8
+test,77,0,LumA,37
+test,77,1,LumB,15
+test,77,2,Basal,17
+test,77,3,Her2,8
+train_val,434,0,LumA,211
+train_val,434,1,LumB,83
+train_val,434,2,Basal,95
+train_val,434,3,Her2,45

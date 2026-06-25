@@ -1,0 +1,17 @@
+split,total_samples,label_id,label,n_samples
+train,252,0,CIN,142
+train,252,1,EBV,20
+train,252,2,GS,43
+train,252,3,MSI,47
+val,55,0,CIN,31
+val,55,1,EBV,4
+val,55,2,GS,9
+val,55,3,MSI,11
+test,55,0,CIN,31
+test,55,1,EBV,4
+test,55,2,GS,10
+test,55,3,MSI,10
+train_val,307,0,CIN,173
+train_val,307,1,EBV,24
+train_val,307,2,GS,52
+train_val,307,3,MSI,58

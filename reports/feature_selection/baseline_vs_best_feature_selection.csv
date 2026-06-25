@@ -1,0 +1,4 @@
+dataset,baseline_model,baseline_features,baseline_cv_macro_f1,baseline_test_macro_f1,fs_family,fs_selector,fs_k,fs_model,fs_selected_features,feature_reduction_pct,fs_cv_macro_f1,fs_test_macro_f1,delta_cv_macro_f1,delta_test_macro_f1
+cancersd_stad,random_forest,4089,0.819706090296721,0.7874202209035238,Wrapper,rfe_logistic,100,logistic_regression,100,97.55441428222059,0.8787276252358922,0.7868381598674348,0.05902153493917117,-0.0005820610360890432
+mogcn_brca,random_forest,19454,0.8878155115925315,0.8784188034188034,Embedded,extra_trees_importance,500,logistic_regression,500,97.42983448134059,0.9250118185130078,0.8907407407407407,0.037196306920476374,0.012321937321937315
+mogonet_brca_optional,random_forest,1000,0.7255435133301139,0.749053144053144,Filter,variance_top_k,200,random_forest,200,80.0,0.7329035194500599,0.7733272807691411,0.007360006119946028,0.024274136715997097

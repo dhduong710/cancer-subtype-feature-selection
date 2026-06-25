@@ -1,0 +1,86 @@
+[
+  {
+    "dataset": "mogcn_brca",
+    "status": "PASS",
+    "n_train": 357,
+    "n_val": 77,
+    "n_test": 77,
+    "n_train_val": 434,
+    "n_cv_folds": 5,
+    "train_counts": {
+      "Basal": 78,
+      "Her2": 37,
+      "LumA": 174,
+      "LumB": 68
+    },
+    "val_counts": {
+      "Basal": 17,
+      "Her2": 8,
+      "LumA": 37,
+      "LumB": 15
+    },
+    "test_counts": {
+      "Basal": 17,
+      "Her2": 8,
+      "LumA": 37,
+      "LumB": 15
+    }
+  },
+  {
+    "dataset": "cancersd_stad",
+    "status": "PASS",
+    "n_train": 252,
+    "n_val": 55,
+    "n_test": 55,
+    "n_train_val": 307,
+    "n_cv_folds": 5,
+    "train_counts": {
+      "CIN": 142,
+      "EBV": 20,
+      "GS": 43,
+      "MSI": 47
+    },
+    "val_counts": {
+      "CIN": 31,
+      "EBV": 4,
+      "GS": 9,
+      "MSI": 11
+    },
+    "test_counts": {
+      "CIN": 31,
+      "EBV": 4,
+      "GS": 10,
+      "MSI": 10
+    }
+  },
+  {
+    "dataset": "mogonet_brca_optional",
+    "status": "PASS",
+    "n_train": 489,
+    "n_val": 123,
+    "n_test": 263,
+    "n_train_val": 612,
+    "n_cv_folds": 5,
+    "train_counts": {
+      "Basal-like": 73,
+      "HER2-enriched": 26,
+      "Luminal A": 244,
+      "Luminal B": 82,
+      "Normal-like": 64
+    },
+    "val_counts": {
+      "Basal-like": 19,
+      "HER2-enriched": 6,
+      "Luminal A": 61,
+      "Luminal B": 21,
+      "Normal-like": 16
+    },
+    "test_counts": {
+      "Basal-like": 39,
+      "HER2-enriched": 14,
+      "Luminal A": 131,
+      "Luminal B": 44,
+      "Normal-like": 35
+    }
+  }
+]

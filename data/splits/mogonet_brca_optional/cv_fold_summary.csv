@@ -1,0 +1,51 @@
+fold,cv_role,label_id,label,n_samples
+1,train,0,Normal-like,64
+1,train,1,Basal-like,73
+1,train,2,HER2-enriched,25
+1,train,3,Luminal A,244
+1,train,4,Luminal B,83
+1,val,0,Normal-like,16
+1,val,1,Basal-like,19
+1,val,2,HER2-enriched,7
+1,val,3,Luminal A,61
+1,val,4,Luminal B,20
+2,train,0,Normal-like,64
+2,train,1,Basal-like,73
+2,train,2,HER2-enriched,25
+2,train,3,Luminal A,244
+2,train,4,Luminal B,83
+2,val,0,Normal-like,16
+2,val,1,Basal-like,19
+2,val,2,HER2-enriched,7
+2,val,3,Luminal A,61
+2,val,4,Luminal B,20
+3,train,0,Normal-like,64
+3,train,1,Basal-like,74
+3,train,2,HER2-enriched,26
+3,train,3,Luminal A,244
+3,train,4,Luminal B,82
+3,val,0,Normal-like,16
+3,val,1,Basal-like,18
+3,val,2,HER2-enriched,6
+3,val,3,Luminal A,61
+3,val,4,Luminal B,21
+4,train,0,Normal-like,64
+4,train,1,Basal-like,74
+4,train,2,HER2-enriched,26
+4,train,3,Luminal A,244
+4,train,4,Luminal B,82
+4,val,0,Normal-like,16
+4,val,1,Basal-like,18
+4,val,2,HER2-enriched,6
+4,val,3,Luminal A,61
+4,val,4,Luminal B,21
+5,train,0,Normal-like,64
+5,train,1,Basal-like,74
+5,train,2,HER2-enriched,26
+5,train,3,Luminal A,244
+5,train,4,Luminal B,82
+5,val,0,Normal-like,16
+5,val,1,Basal-like,18
+5,val,2,HER2-enriched,6
+5,val,3,Luminal A,61
+5,val,4,Luminal B,21
